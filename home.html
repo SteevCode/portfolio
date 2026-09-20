@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME</title>
+    <style>
+        #nav {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+        }
+
+        #nav a {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #ban {
+            width: 100%;
+            height: 400px;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+        }
+
+        #strip {
+            height: 80px;
+            background-color: rgb(24, 24, 24);
+            display: flex;
+            align-items: center;
+            display: flex;
+            gap: 40px;
+            color: white;
+            padding-left: 30px;
+        }
+
+        #profile {
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
+
+        #profile img {
+            width: 400px;
+            height: 430px;
+            border-radius: 50%;
+            position: relative;
+            top: -200px;
+            right: 20px;
+        }
+
+        #intro {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        #cond {
+            color: white;
+        }   
+
+        #about {
+
+            background-image: url('condent_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            height: 400px;
+            text-shadow: 2px 2px 5px black;
+            
+        }
+     
+        #skills {
+            background-image: url("skills_banner.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: right;
+            gap: 400px;
+            justify-content: space-evenly;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            text-shadow: 2px 2px 5px black;
+            height: 400px;
+        }
+
+
+        #projects {
+            background-image: url('project_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: row;
+            align-items: right;
+            gap: 400px;
+            justify-content: space-evenly;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            text-shadow: 2px 2px 5px black;
+            height: 400px;
+
+        }
+
+        #education {
+            background-image: url("education_banner.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: right;
+            gap: 400px;
+            justify-content: space-evenly;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            text-shadow: 2px 2px 5px black;
+            height: 400px;
+        }
+
+
+        table {
+            padding-right: 50px;
+            padding-left: 20px;
+            text-shadow: 2px 2px 5px black;
+            
+            
+
+        }
+
+        td {
+            font-size: 25px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main id="home">
+
+        <nav id="nav" style="display:flex; gap:20px; justify-content:center;">
+            <a href="#home" style="color:white; text-decoration:none; font-family:'Inter',sans-serif;">HOME</a>
+            <a href="#about" style="color:white; text-decoration:none; font-family:'Inter',sans-serif;">ABOUT</a>
+            <a href="#skills" style="color:white; text-decoration:none; font-family:'Inter',sans-serif;">SKILLS</a>
+            <a href="#projects" style="color:white; text-decoration:none; font-family:'Inter',sans-serif;">PROJECTS</a>
+            <a href="#foot" style="color:white; text-decoration:none; font-family:'Inter',sans-serif;">CONTACT</a>
+        </nav>
+
+        <div id="ban" style="background-image: url(banner.jpg);"><br><br>
+            <div id="intro" >
+                <h1>Steeve Binson</h1><br>
+                <h2 style="font-size: 30px;">#SoftwareDeveloper #Python #WebDev</h2>
+
+            </div>
+
+        </div>
+
+        <div id="strip">
+
+            <span>MCA Student</span>
+            <span>Aspiring Software Developer</span>
+
+        </div>
+
+        <div id="profile">
+            <div> <img src="image.jpg" alt="Profile"></div>
+        </div>
+
+
+        <div id="cond">
+
+
+            <div id="about">
+
+                <h1 style="font-size: 50px;">About Me:</h1>
+                <h2 style="font-size: 60px; padding-left: 20px;">Steeve binson</h2>
+                <p style="font-size: 30px; padding-right: 50px; padding-left: 20px;">MCA student with a BCA background
+                    and hands-on experience in Python, Django, web development, and software projects.
+                    Interested in building practical software solutions and continuously improving my development
+                    skills.</p>
+            </div>
+
+
+            <div id="skills">
+                <h2 style="font-size: 50px;">Technical Skills</h2>
+                <table>
+                    <tr>
+                        <th>Category</th>
+                        <th>Skills</th>
+                    </tr>
+                    <tr>
+                        <td>Programming Languages</td>
+                        <td>Python, C, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>HTML, CSS, JavaScript, Django</td>
+                    </tr>
+                    <tr>
+                        <td>Databases</td>
+                        <td>MySQL</td>
+                    </tr>
+                    <tr>
+                        <td>Tools and Technologies</td>
+                        <td>Git, VS Code</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div id="projects">
+                <h2>Projects</h2>
+                <table>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>CropSell AI</td>
+                        <td>Mandi Price Intelligence & <br> Selling Decision Support</td>
+                    </tr>
+                    <tr>
+                        <td>BULWARK</td>
+                        <td>Security Browser Extension</td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div id="education">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Year</th>
+                        <th>Institution</th>
+                    </tr>
+                    <tr>
+                        <td>MCA</td>
+                        <td>2026-2028</td>
+                        <td>MITS</td>
+                    </tr>
+                    <tr>
+                        <td>BCA</td>
+                        <td>2023-2026</td>
+                        <td>Don Bosco Arts and Science College</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+
+
+<section id="foot" class="connect-section" style="padding: 20px; text-align: center; background-color: #f9f9f9;">
+    <h5 style="font-family: 'Inter', sans-serif; font-size: 24px; margin-bottom: 12px;">Connect with Me</h5>
+    <ul id="conducts" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; font-family: 'Inter', sans-serif; font-size: 16px; margin: 0;">
+            <li><a href="https://www.linkedin.com/in/steeve-binson-76928b2a3" target="_blank" style="text-decoration: none; color: inherit;">LinkedIn</a></li>
+            <li><a href="https://github.com/SteevCode" target="_blank" style="text-decoration: none; color: inherit;">GitHub</a></li>
+            <li><a href="mailto:steevebinson" target="_blank" style="text-decoration: none; color: inherit;">Gmail</a></li>
+            <li><a href="https://instagram.com/4kstv10" target="_blank" style="text-decoration: none; color: inherit;">Instagram</a></li>
+    </ul>
+</section>
+
+
+
+    </main>
+    <footer id="footer" style="background-color: black;color: white; text-align: center;padding: 20px;">  
+        <p>all rights reserved &copy; 2026</p>
+    </footer>
+
+</body>
+
+</html>
