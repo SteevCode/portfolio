@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+        }
+
+        nav {
+
+            background: #1b1b1b;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header {
+            height: 300px;
+            background: #000000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 80px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            align-items: center;
+            padding-right: 15px;
+            position: relative;
+            top: 20px;
+            
+            
+
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        main>div {
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+        #bca img,
+        #ten img {
+
+            border-radius: 0% 30% 30% 0%;
+            width: 500px;
+            height: 400px;
+
+        }
+
+        #mca img,
+        #pl img {
+
+            border-radius: 30% 0% 0% 30%;
+            width: 500px;
+            height: 400px;
+        }
+
+        #mca {
+
+            background-color: #930101d4;
+            color: #ffffff;
+            padding-left: 20px;
+            text-align: left;
+            color: #ffffff;
+
+        }
+
+        #bca {
+            background-color: #928601;
+            text-align: right;
+            padding-right: 20px;
+            color: #ffffff;
+        }
+
+        #pl {
+            background-color: rgb(60, 60, 60);
+            padding-left: 20px;
+            text-align: left;
+            color: #ffffff;
+        }
+
+
+        #bca,
+        #ten {
+            flex-direction: row-reverse;
+
+        }
+
+        #ten {
+            background-color: rgb(0, 59, 0);
+            text-align: right;
+            padding-right: 20px;
+            color: #ffffff;
+
+        }
+ 
+
+.sub1 h2 {
+    font-size: 100px; 
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 0px;
+}
+.sub1 p{
+    font-size: 25px;
+    font-family: "Libertinus Mono", monospace;
+
+
+
+}
+a { color: #fff; }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#bca">BCA</a>
+        <a href="#mca">MCA</a>
+        <a href="#pl">Plus Two</a>
+        <a href="#ten">Tenth</a>
+    </nav>
+
+    <header id="home">
+        <h1>Education</h1>
+        <img src="gra.jpg" alt="eduicon">
+    </header>
+
+<br><br>
+       
+
+            <main>
+                <div id="mca">
+                    <div class="sub1">
+                        <h2>MCA</h2>
+                        <p>Institution:<br>
+                        Muthoot Institute of Technology and Science (MITS)<br>
+                        University:<br>
+                        KTU<br>
+                        sem 1<br></p>
+        <a href="https://mgmits.ac.in/" target="_blank">About</a>
+                    </div>
+                    <div class="sub2"><img src="mits.jpg" alt="Image"></div>
+                </div>
+                <div id="bca">
+                    <div class="sub1">
+                        <h2>BCA</h2>
+                        <p>Institution:<br>
+                        Don Bosco Arts & Science College, Mampetta<br>
+                        University:<br>
+                        University of Calicut<br>
+                        2023–2026<br>
+                        cgpa:
+                        69%</p>
+        <a href="https://dbcmampetta.ac.in/" target="_blank">About</a>
+                    </div>
+                    <div class="sub2"><img src="bca.jpeg" alt="Image"></div>
+                </div>
+                <div id="pl">
+                    <div class="sub1">
+                        <h2>Higher Secondary</h2>
+                       <p>Institution:<br>
+                        MES Raja Residential School, Chathamangalam<br>
+                        2021-2023<br>
+                        Board:<br>
+                        CBSE<br>
+                        74.8%</p>
+        <a href="https://mesrajaschool.com/" target="_blank">About</a>
+                    </div>
+                    <div class="sub2"><img src="mes.jpg" alt="Image"></div>
+                </div>
+                <div id="ten">
+                    <div class="sub1">
+                        <h2>SSLC</h2>
+                        <p>Institution:<br>
+                        Stella Maris Boarding School<br>
+                        2020-2021<br>
+                        Board:<br>
+                        CBSE<br>
+                        82%</p>
+        <a href="https://www.stellamaris.in/" target="_blank">About</a>
+                    </div>
+                    <div class="sub2"><img src="ten.jpg" alt="Image"></div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer-content">
+                    <p style="text-align: center;">&copy; 2026 My Portfolio</p>
+                    <nav class="footer-nav">
+                        <a href="index.html">Home</a>
+                        <a href="#bca">BCA</a>
+                        <a href="#mca">MCA</a>
+                        <a href="#pl">Plus Two</a>
+                        <a href="#ten">Tenth</a>
+                    </nav>
+                </div>
+            </footer>
+</body>
+
+</html>
